@@ -11,7 +11,7 @@ https://docs.google.com/spreadsheets/d/1lL9W6TsEgTTjIZKY7VVJrsZlt23fcIp_pkKKN81F
 
 **Automation test cases information and running method:**  
 Information:  
-The tests were prepared in IntelliJ in Gradle projects in JAVA language.
+ * The tests were prepared in IntelliJ in Gradle projects in JAVA language.
 
 Test running:
  * Clone repository to your computer.
