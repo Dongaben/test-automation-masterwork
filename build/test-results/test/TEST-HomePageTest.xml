@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-29T20:00:31" hostname="DESKTOP-MOBDSIT" time="30.177">
+  <properties/>
+  <testcase name="Logout. (Out_01)" classname="HomePageTest" time="11.414"/>
+  <testcase name="At least one new data input, validate the input was successful. (New_01)" classname="HomePageTest" time="8.963"/>
+  <testcase name="After listing a more than one page long data list, navigate to the next page of the data list. (Pag_01)" classname="HomePageTest" time="9.797"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45765
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 29, 2021 10:00:35 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 10422
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 29, 2021 10:00:47 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 19341
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 29, 2021 10:00:55 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
