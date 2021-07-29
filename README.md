@@ -16,5 +16,5 @@ https://docs.google.com/spreadsheets/d/1lL9W6TsEgTTjIZKY7VVJrsZlt23fcIp_pkKKN81F
 **Test running:**
  * Clone repository to your computer
  * Open the cloned gradle project with IntelliJ
- * Enter into the IntelliJ terminal (using Windows): gradlew test 
+ * Enter into the IntelliJ terminal (using Windows): ./gradlew test 
  * Press "Enter"
