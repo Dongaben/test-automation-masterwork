@@ -1,0 +1,220 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "AccessoriesPageTest",
+    "children" : [ {
+      "name" : "listingData",
+      "uid" : "6351e6aa1e24662",
+      "parentUid" : "e5f736687051e9d5d23674c776c1483a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590061430,
+        "stop" : 1627590076073,
+        "duration" : 14643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5f736687051e9d5d23674c776c1483a"
+  }, {
+    "name" : "AddressesPageTest",
+    "children" : [ {
+      "name" : "deletingData",
+      "uid" : "3f6b79dffb194e7e",
+      "parentUid" : "2a9a53e737380cd9c5df4db817f1aa4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590076464,
+        "stop" : 1627590090047,
+        "duration" : 13583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "existingDataModification",
+      "uid" : "7229a94b3c9ed82a",
+      "parentUid" : "2a9a53e737380cd9c5df4db817f1aa4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590090062,
+        "stop" : 1627590105020,
+        "duration" : 14958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "repetitiveDataEntry",
+      "uid" : "7215cc0403f742dc",
+      "parentUid" : "2a9a53e737380cd9c5df4db817f1aa4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590105301,
+        "stop" : 1627590117778,
+        "duration" : 12477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "repetitiveDataEntry",
+      "uid" : "efc292b61e9c475d",
+      "parentUid" : "2a9a53e737380cd9c5df4db817f1aa4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590117809,
+        "stop" : 1627590130120,
+        "duration" : 12311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "repetitiveDataEntry",
+      "uid" : "5e1e3770c537499e",
+      "parentUid" : "2a9a53e737380cd9c5df4db817f1aa4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590130120,
+        "stop" : 1627590142202,
+        "duration" : 12082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2a9a53e737380cd9c5df4db817f1aa4f"
+  }, {
+    "name" : "HomePageTest",
+    "children" : [ {
+      "name" : "logout",
+      "uid" : "d1951eb915e58c88",
+      "parentUid" : "1d0c54cb3b735440a26217feb9dd1d5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590142233,
+        "stop" : 1627590152825,
+        "duration" : 10592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "inputOfNewData",
+      "uid" : "2017301d3c365ead",
+      "parentUid" : "1d0c54cb3b735440a26217feb9dd1d5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590152840,
+        "stop" : 1627590161180,
+        "duration" : 8340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pagination",
+      "uid" : "1da87fbcfeb9ec4b",
+      "parentUid" : "1d0c54cb3b735440a26217feb9dd1d5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590161180,
+        "stop" : 1627590169826,
+        "duration" : 8646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d0c54cb3b735440a26217feb9dd1d5a"
+  }, {
+    "name" : "LoginPageTest",
+    "children" : [ {
+      "name" : "successLogin",
+      "uid" : "4574292a06b1eef9",
+      "parentUid" : "ab581fb17d2a18c18e80f18893daf095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590169842,
+        "stop" : 1627590179448,
+        "duration" : 9606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unSuccessLoginWithInvalidData",
+      "uid" : "8db5bb158b33400b",
+      "parentUid" : "ab581fb17d2a18c18e80f18893daf095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590179448,
+        "stop" : 1627590188842,
+        "duration" : 9394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ab581fb17d2a18c18e80f18893daf095"
+  }, {
+    "name" : "RegisterPageTest",
+    "children" : [ {
+      "name" : "savingDataFromTheWebApplication",
+      "uid" : "611274876cc9d358",
+      "parentUid" : "f6d9211899f42e7f3a35c6629d96a0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590188874,
+        "stop" : 1627590202786,
+        "duration" : 13912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successRegister",
+      "uid" : "fb8da0fe5af7395c",
+      "parentUid" : "f6d9211899f42e7f3a35c6629d96a0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590202801,
+        "stop" : 1627590216254,
+        "duration" : 13453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "usingPrivacyStatement",
+      "uid" : "8b453006cd754ebb",
+      "parentUid" : "f6d9211899f42e7f3a35c6629d96a0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590216269,
+        "stop" : 1627590225868,
+        "duration" : 9599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unSuccessRegister",
+      "uid" : "9e109038af4dc788",
+      "parentUid" : "f6d9211899f42e7f3a35c6629d96a0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590225868,
+        "stop" : 1627590236617,
+        "duration" : 10749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f6d9211899f42e7f3a35c6629d96a0ff"
+  } ]
+}

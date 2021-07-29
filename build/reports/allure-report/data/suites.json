@@ -1,0 +1,220 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "AccessoriesPageTest",
+    "children" : [ {
+      "name" : "Execute a data listing from any data available on the page. (List_01)",
+      "uid" : "6351e6aa1e24662",
+      "parentUid" : "9e5018ff374bed4dca615ce18f013108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590061430,
+        "stop" : 1627590076073,
+        "duration" : 14643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9e5018ff374bed4dca615ce18f013108"
+  }, {
+    "name" : "AddressesPageTest",
+    "children" : [ {
+      "name" : "Deleting data, validate that the deletion was successful. (Del_01)",
+      "uid" : "3f6b79dffb194e7e",
+      "parentUid" : "15cc20c6f2557ba1916e4ceef6e928e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590076464,
+        "stop" : 1627590090047,
+        "duration" : 13583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Modifying data, validate that the change was successful. (Mod_01)",
+      "uid" : "7229a94b3c9ed82a",
+      "parentUid" : "15cc20c6f2557ba1916e4ceef6e928e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590090062,
+        "stop" : 1627590105020,
+        "duration" : 14958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] Telephely1, Hold u. 5., Szeged, California, 55555, United States",
+      "uid" : "7215cc0403f742dc",
+      "parentUid" : "15cc20c6f2557ba1916e4ceef6e928e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590105301,
+        "stop" : 1627590117778,
+        "duration" : 12477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] Telephely2, Mester u. 24., Hatvan, Arizona, 66666, United States",
+      "uid" : "efc292b61e9c475d",
+      "parentUid" : "15cc20c6f2557ba1916e4ceef6e928e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590117809,
+        "stop" : 1627590130120,
+        "duration" : 12311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Telephely3, Halom u. 33., Szolnok, Texas, 77777, United States",
+      "uid" : "5e1e3770c537499e",
+      "parentUid" : "15cc20c6f2557ba1916e4ceef6e928e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590130120,
+        "stop" : 1627590142202,
+        "duration" : 12082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15cc20c6f2557ba1916e4ceef6e928e9"
+  }, {
+    "name" : "HomePageTest",
+    "children" : [ {
+      "name" : "Logout. (Out_01)",
+      "uid" : "d1951eb915e58c88",
+      "parentUid" : "9cbeee9642f9a99daebe33b128ffe5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590142233,
+        "stop" : 1627590152825,
+        "duration" : 10592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "At least one new data input, validate the input was successful. (New_01)",
+      "uid" : "2017301d3c365ead",
+      "parentUid" : "9cbeee9642f9a99daebe33b128ffe5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590152840,
+        "stop" : 1627590161180,
+        "duration" : 8340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "After listing a more than one page long data list, navigate to the next page of the data list. (Pag_01)",
+      "uid" : "1da87fbcfeb9ec4b",
+      "parentUid" : "9cbeee9642f9a99daebe33b128ffe5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590161180,
+        "stop" : 1627590169826,
+        "duration" : 8646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cbeee9642f9a99daebe33b128ffe5d4"
+  }, {
+    "name" : "LoginPageTest",
+    "children" : [ {
+      "name" : "Successfully login. (Log_02)",
+      "uid" : "4574292a06b1eef9",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590169842,
+        "stop" : 1627590179448,
+        "duration" : 9606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Unsuccessfully login with non registrated data. (Log_01)",
+      "uid" : "8db5bb158b33400b",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590179448,
+        "stop" : 1627590188842,
+        "duration" : 9394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4c02d1c299d33785fe93a09989ce5979"
+  }, {
+    "name" : "RegisterPageTest",
+    "children" : [ {
+      "name" : "Save a list of data form the page into a text file. (Sav_01)",
+      "uid" : "611274876cc9d358",
+      "parentUid" : "9c5d36fac321f063fa5dd21790425058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590188874,
+        "stop" : 1627590202786,
+        "duration" : 13912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] Mr., Elek, Mekk, mekkelek13@gmail.com, 123321, 11/11/1990",
+      "uid" : "fb8da0fe5af7395c",
+      "parentUid" : "9c5d36fac321f063fa5dd21790425058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590202801,
+        "stop" : 1627590216254,
+        "duration" : 13453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Open Privacy Statement and check the box. (UPS_01)",
+      "uid" : "8b453006cd754ebb",
+      "parentUid" : "9c5d36fac321f063fa5dd21790425058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590216269,
+        "stop" : 1627590225868,
+        "duration" : 9599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] Mr., Elek, Mekk, mekkelek13@gmail.com, 123321, 11/11/1990",
+      "uid" : "9e109038af4dc788",
+      "parentUid" : "9c5d36fac321f063fa5dd21790425058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627590225868,
+        "stop" : 1627590236617,
+        "duration" : 10749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9c5d36fac321f063fa5dd21790425058"
+  } ]
+}

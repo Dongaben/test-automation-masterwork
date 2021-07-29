@@ -1,0 +1,32 @@
+Pages/AddressesPage.java
+ Pages.AddressesPage
+Pages/HomePage.java
+ Pages.HomePage
+HomePageTest.java
+ HomePageTest
+AddressesPageTest.java
+ AddressesPageTest
+Pages/AccessoriesPage.java
+ Pages.AccessoriesPage
+Pages/BasePage.java
+ Pages.BasePage
+Pages/LoginPage.java
+ Pages.LoginPage
+AccessoriesPageTest.java
+ AccessoriesPageTest
+Pages/CreateNewAddressPage.java
+ Pages.CreateNewAddressPage
+LoginPageTest.java
+ LoginPageTest
+Pages/AllProduct2Page.java
+ Pages.AllProduct2Page
+RegisterPageTest.java
+ RegisterPageTest
+Pages/RegisterPage.java
+ Pages.RegisterPage
+Pages/TermsAndConditionsOfUsePage.java
+ Pages.TermsAndConditionsOfUsePage
+Pages/AllProduct1Page.java
+ Pages.AllProduct1Page
+BaseTest.java
+ BaseTest

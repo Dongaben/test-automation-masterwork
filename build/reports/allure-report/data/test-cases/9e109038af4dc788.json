@@ -1,0 +1,57 @@
+{
+  "uid" : "9e109038af4dc788",
+  "name" : "[1] Mr., Elek, Mekk, mekkelek13@gmail.com, 123321, 11/11/1990",
+  "fullName" : "RegisterPageTest.unSuccessRegister",
+  "historyId" : "adc3e1b6d5febc2056ba6781c0686266",
+  "time" : {
+    "start" : 1627590225868,
+    "stop" : 1627590236617,
+    "duration" : 10749
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "30872@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "RegisterPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegisterPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unSuccessRegister"
+  }, {
+    "name" : "suite",
+    "value" : "RegisterPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e109038af4dc788.json",
+  "parameterValues" : [ ]
+}
