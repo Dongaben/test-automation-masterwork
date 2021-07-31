@@ -1,4 +1,59 @@
 {
-  "total" : 15,
-  "items" : [ ]
+  "total" : 5,
+  "items" : [ {
+    "uid" : "18600d685aa526bfedcb0e108c7017b1",
+    "name" : "Data handling Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "c65591d23823647e1379612054ef2d4b",
+    "name" : "Register Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "6cc8469c305b36ccc59f94b0f9572460",
+    "name" : "Login and logout Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ffcf53786b22197d4781116e6c1098c1",
+    "name" : "Products searching Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ce4dc6b43c192a7a78e2f2b730e96254",
+    "name" : "Listing Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

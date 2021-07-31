@@ -1,8 +1,8 @@
 {
   "total" : 5,
   "items" : [ {
-    "uid" : "15cc20c6f2557ba1916e4ceef6e928e9",
-    "name" : "AddressesPageTest",
+    "uid" : "2ef8e14c20e4380efa3ea83509d27064",
+    "name" : "Data handling tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "9c5d36fac321f063fa5dd21790425058",
-    "name" : "RegisterPageTest",
+    "uid" : "90ffb9f276f5c9f30d85037e28d84e39",
+    "name" : "Registration, Using Privacy Statement and Data saving tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "9cbeee9642f9a99daebe33b128ffe5d4",
-    "name" : "HomePageTest",
+    "uid" : "fde111437866b27d30bf530a40c9388f",
+    "name" : "Login and logout tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "4c02d1c299d33785fe93a09989ce5979",
-    "name" : "LoginPageTest",
+    "uid" : "bf0e9aaa6367a15a4857d1aff3c6152b",
+    "name" : "Products searching tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,8 +45,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "9e5018ff374bed4dca615ce18f013108",
-    "name" : "AccessoriesPageTest",
+    "uid" : "1c9949054f3ef224c5d614190cfb9d88",
+    "name" : "Listing data test",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

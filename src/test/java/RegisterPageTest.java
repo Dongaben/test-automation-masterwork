@@ -1,6 +1,8 @@
 import Pages.HomePage;
 import Pages.RegisterPage;
 import Pages.TermsAndConditionsOfUsePage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,11 +10,14 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.support.PageFactory;
 
+@Feature("Register Feature")
+@DisplayName("Registration, Using Privacy Statement and Data saving tests")
 public class RegisterPageTest extends BaseTest{
 
   @ParameterizedTest
-  @DisplayName("Unsuccessed registration without accepting access terms and conditions " +
-      "and the privacy policy. (Reg_01)")
+  @DisplayName("Unsuccessed registration test (Reg_01)")
+  @Description("Unsuccessed registration without accepting access terms and conditions " +
+      "and the privacy policy.")
   @CsvFileSource(resources = "registration_data.csv", numLinesToSkip = 1, encoding = "utf-8")
   public void unSuccessRegister(String socialTitle, String firstName, String lastName,
                                 String email, String password, String birthDate) {
@@ -24,7 +29,8 @@ public class RegisterPageTest extends BaseTest{
   }
 
   @ParameterizedTest
-  @DisplayName("Successfully registration. (Reg_02)")
+  @DisplayName("Successfully registration test (Reg_02)")
+  @Description("In the test, the email address is generated randomly.")
   @CsvFileSource(resources = "registration_data.csv", numLinesToSkip = 1, encoding = "utf-8")
   public void successRegister(String socialTitle, String firstName, String lastName,
                               String email, String password, String birthDate) {
@@ -40,7 +46,8 @@ public class RegisterPageTest extends BaseTest{
   }
 
   @Test
-  @DisplayName("Open Privacy Statement and check the box. (UPS_01)")
+  @DisplayName("Using Privacy Statement test (UPS_01)")
+  @Description("Open Privacy Statement and check the box.")
   public void usingPrivacyStatement() {
     RegisterPage register = PageFactory.initElements(driver, RegisterPage.class);
     register.navigateToRegisterPage();
@@ -52,7 +59,8 @@ public class RegisterPageTest extends BaseTest{
   }
 
   @Test
-  @DisplayName("Save a list of data form the page into a text file. (Sav_01)")
+  @DisplayName("Saving data from the web application test (Sav_01)")
+  @Description("Save a list of data form the page into the \"Terms_and_conditions_of_use.txt\" file.")
   public void savingDataFromTheWebApplication() throws InterruptedException {
     RegisterPage register = PageFactory.initElements(driver, RegisterPage.class);
     TermsAndConditionsOfUsePage terms = new TermsAndConditionsOfUsePage(driver);

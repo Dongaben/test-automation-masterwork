@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-29T20:22:49" hostname="DESKTOP-MOBDSIT" time="18.997">
+<testsuite name="Login and logout tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-31T16:45:36" hostname="DESKTOP-MOBDSIT" time="24.861">
   <properties/>
-  <testcase name="Successfully login. (Log_02)" classname="LoginPageTest" time="9.603"/>
-  <testcase name="Unsuccessfully login with non registrated data. (Log_01)" classname="LoginPageTest" time="9.39"/>
+  <testcase name="Logout test (Out_01)" classname="LoginPageTest" time="8.927"/>
+  <testcase name="Successfully login test (Log_02)" classname="LoginPageTest" time="8.234"/>
+  <testcase name="Unsuccessfully login test (Log_01)" classname="LoginPageTest" time="7.681"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 16074
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7508
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 29, 2021 10:22:53 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 31, 2021 6:45:39 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31411
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 42102
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 29, 2021 10:23:02 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+júl. 31, 2021 6:45:48 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 24057
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+júl. 31, 2021 6:45:56 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

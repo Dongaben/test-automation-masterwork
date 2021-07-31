@@ -3,17 +3,22 @@ import static org.assertj.core.api.Assertions.assertThat;
 import Pages.AddressesPage;
 import Pages.CreateNewAddressPage;
 import Pages.HomePage;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.support.PageFactory;
 
+@Feature("Data handling Feature")
+@DisplayName("Data handling tests")
 public class AddressesPageTest extends BaseTest{
 
   @ParameterizedTest
-  @DisplayName("From a .csv file do a parameterized test and fill the page up " +
-      "with at least 3 pieces of data. (Rep_01-03)")
+  @DisplayName("Repetitive data entry from external source test (Rep_01-03)")
+  @Description("From the new_addresses.csv file do a parameterized test and fill the page up " +
+      "with at least 3 pieces of data.")
   @CsvFileSource(resources = "new_addresses.csv", numLinesToSkip = 1, encoding = "utf-8")
   public void repetitiveDataEntry(String alias, String address, String city, String state,
                                   String postalCode, String country) {
@@ -30,7 +35,8 @@ public class AddressesPageTest extends BaseTest{
   }
 
   @Test
-  @DisplayName("Modifying data, validate that the change was successful. (Mod_01)")
+  @DisplayName("Existing data modification test (Mod_01)")
+  @Description("Modifying data, validate that the change was successful.")
   public void existingDataModification() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);
     AddressesPage addresses = PageFactory.initElements(driver, AddressesPage.class);
@@ -44,7 +50,8 @@ public class AddressesPageTest extends BaseTest{
   }
 
   @Test
-  @DisplayName("Deleting data, validate that the deletion was successful. (Del_01)")
+  @DisplayName("Deleting data test (Del_01)")
+  @Description("Deleting data, validate that the deletion was successful.")
   public void deletingData() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);
     AddressesPage addresses = PageFactory.initElements(driver, AddressesPage.class);
