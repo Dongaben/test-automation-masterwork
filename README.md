@@ -16,13 +16,18 @@ https://docs.google.com/spreadsheets/d/1lL9W6TsEgTTjIZKY7VVJrsZlt23fcIp_pkKKN81F
 
 **Test running:**
  * Clone repository to your computer
- * Open the cloned gradle project with IntelliJ
- * Enter into the IntelliJ terminal (using Windows): ./gradlew test 
+ * Open the cloned gradle project
+ * Enter into the terminal (using Windows): "gradlew test"
  * Press "Enter"
 
 **Allure report:**
- * Link in repository: build/reports/tests/test/index.html
- * Command for Allure Report in IntelliJ terminal:
-   * ./gradlew clean test
-   * ./gradlew allureReport
-   * ./gradlew allureServe
+ * Command for Allure Report in terminal:
+   * gradlew clean test
+   * gradlew allureReport
+   * gradlew allureServe
+   
+   **or use**
+   * allure serve build/allure-results
+   
+ **Important information for test or report running:**
+ * In some runtime environment, the gradlew command must also be anticipated by "./".
