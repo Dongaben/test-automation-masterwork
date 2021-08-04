@@ -11,12 +11,12 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-@Feature("Listing Feature")
 @DisplayName("Listing data test")
 public class AccessoriesPageTest extends BaseTest {
 
   @Test
   @DisplayName("Execute a data listing from any data available on the page (List_01)")
+  @Feature("Data listing")
   @Description("Listing the \"Studio Design\" product group and product number control.")
   public void listingData() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);

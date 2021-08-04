@@ -3,22 +3,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 import Pages.AllProduct1Page;
 import Pages.AllProduct2Page;
 import Pages.HomePage;
-import Pages.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-@Feature("Products searching Feature")
 @DisplayName("Products searching tests")
 public class HomePageTest extends BaseTest{
 
   @Test
   @DisplayName("Pagination test (Pag_01)")
+  @Feature("Products searching")
   @Description("After listing a more than one page long data list," +
       " navigate to the next page of the data list.")
   public void pagination() {
@@ -35,6 +33,7 @@ public class HomePageTest extends BaseTest{
 
   @Test
   @DisplayName("Input of new data test (New_01)")
+  @Feature("Products searching")
   @Description("Enter the word \"mug\" in the search box and check the conformity of " +
       "the listed products.")
   public void inputOfNewData() {

@@ -1,0 +1,61 @@
+{
+  "uid" : "3e1e0bd19164bcd3",
+  "name" : "Logout test (Out_01)",
+  "fullName" : "LoginPageTest.logout",
+  "historyId" : "eccdd82bfc358078cf23a757d2dfbe6e",
+  "time" : {
+    "start" : 1628091803816,
+    "stop" : 1628091813192,
+    "duration" : 9376
+  },
+  "description" : "Successful logout.",
+  "descriptionHtml" : "<p>Successful logout.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logout"
+  }, {
+    "name" : "suite",
+    "value" : "Login and logout tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e1e0bd19164bcd3.json",
+  "parameterValues" : [ ]
+}

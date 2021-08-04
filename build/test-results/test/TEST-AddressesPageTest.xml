@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Data handling tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-07-31T16:44:25" hostname="DESKTOP-MOBDSIT" time="57.451">
+<testsuite name="Data handling tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-04T15:42:09" hostname="DESKTOP-MOBDSIT" time="58.377">
   <properties/>
-  <testcase name="Deleting data test (Del_01)" classname="AddressesPageTest" time="11.796"/>
-  <testcase name="Existing data modification test (Mod_01)" classname="AddressesPageTest" time="12.778"/>
-  <testcase name="[1] Telephely1, Hold u. 5., Szeged, California, 55555, United States" classname="AddressesPageTest" time="10.783"/>
-  <testcase name="[2] Telephely2, Mester u. 24., Hatvan, Arizona, 66666, United States" classname="AddressesPageTest" time="10.822"/>
-  <testcase name="[3] Telephely3, Halom u. 33., Szolnok, Texas, 77777, United States" classname="AddressesPageTest" time="11.002"/>
+  <testcase name="Deleting data test (Del_01)" classname="AddressesPageTest" time="12.753"/>
+  <testcase name="Existing data modification test (Mod_01)" classname="AddressesPageTest" time="10.166"/>
+  <testcase name="Repetitive data entry test (Create new address) - Alias = Telephely1" classname="AddressesPageTest" time="12.499"/>
+  <testcase name="Repetitive data entry test (Create new address) - Alias = Telephely2" classname="AddressesPageTest" time="11.147"/>
+  <testcase name="Repetitive data entry test (Create new address) - Alias = Telephely3" classname="AddressesPageTest" time="11.511"/>
   <system-out><![CDATA[The searched address field not found!
-The searched address field not found!
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12700
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 19861
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:44:27 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:42:11 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 45706
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 4655
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:44:39 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:42:24 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 2473
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 38784
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:44:52 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:42:36 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 20158
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 11595
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:45:03 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:42:47 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32445
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 30374
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:45:14 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:42:58 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

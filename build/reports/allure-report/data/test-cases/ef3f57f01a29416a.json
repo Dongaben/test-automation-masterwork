@@ -1,0 +1,61 @@
+{
+  "uid" : "ef3f57f01a29416a",
+  "name" : "Existing data modification test (Mod_01)",
+  "fullName" : "AddressesPageTest.existingDataModification",
+  "historyId" : "39e275db4e3718b971ea5ef3f8713ba4",
+  "time" : {
+    "start" : 1628091742000,
+    "stop" : 1628091752156,
+    "duration" : 10156
+  },
+  "description" : "Modifying data, validate that the change was successful.",
+  "descriptionHtml" : "<p>Modifying data, validate that the change was successful.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data handling"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "AddressesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AddressesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "existingDataModification"
+  }, {
+    "name" : "suite",
+    "value" : "Data handling tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef3f57f01a29416a.json",
+  "parameterValues" : [ ]
+}

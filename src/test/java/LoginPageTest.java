@@ -9,13 +9,13 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.PageFactory;
 
-@Feature("Login and logout Feature")
 @DisplayName("Login and logout tests")
 public class LoginPageTest extends BaseTest{
 
   @Test
-  @DisplayName("Unsuccessfully login test (Log_01)")
-  @Description("Unsuccessfully login with non registrated data.")
+  @DisplayName("Unsuccessful login test (Log_01)")
+  @Feature("Login")
+  @Description("Unsuccessful login with non registrated data.")
   public void unSuccessLoginWithInvalidData() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);
     LoginPage login = PageFactory.initElements(driver, LoginPage.class);
@@ -26,7 +26,9 @@ public class LoginPageTest extends BaseTest{
   }
 
   @Test
-  @DisplayName("Successfully login test (Log_02)")
+  @DisplayName("Successful login test (Log_02)")
+  @Feature("Login")
+  @Description("Successful login with valid data.")
   public void successLogin() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);
     LoginPage login = PageFactory.initElements(driver, LoginPage.class);
@@ -38,6 +40,8 @@ public class LoginPageTest extends BaseTest{
 
   @Test
   @DisplayName("Logout test (Out_01)")
+  @Feature("Logout")
+  @Description("Successful logout.")
   public void logout() {
     HomePage home = PageFactory.initElements(driver, HomePage.class);
     LoginPage login = PageFactory.initElements(driver, LoginPage.class);

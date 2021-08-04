@@ -1,0 +1,61 @@
+{
+  "uid" : "bc7d738634dc2dc",
+  "name" : "Saving data from the web application test (Sav_01)",
+  "fullName" : "RegisterPageTest.savingDataFromTheWebApplication",
+  "historyId" : "33442507de735cc4374236d60e898a7",
+  "time" : {
+    "start" : 1628091830343,
+    "stop" : 1628091844659,
+    "duration" : 14316
+  },
+  "description" : "Save a list of data form the page into the \"Terms_and_conditions_of_use.txt\" file.",
+  "descriptionHtml" : "<p>Save a list of data form the page into the &quot;Terms_and_conditions_of_use.txt&quot; file.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data handling"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "RegisterPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegisterPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "savingDataFromTheWebApplication"
+  }, {
+    "name" : "suite",
+    "value" : "Registration, Using Privacy Statement and Data saving tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc7d738634dc2dc.json",
+  "parameterValues" : [ ]
+}

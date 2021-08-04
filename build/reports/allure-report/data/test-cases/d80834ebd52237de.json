@@ -1,0 +1,61 @@
+{
+  "uid" : "d80834ebd52237de",
+  "name" : "Repetitive data entry test (Create new address) - Alias = Telephely3",
+  "fullName" : "AddressesPageTest.repetitiveDataEntry",
+  "historyId" : "23af0df73d264864563229f8c27cc160",
+  "time" : {
+    "start" : 1628091776098,
+    "stop" : 1628091787609,
+    "duration" : 11511
+  },
+  "description" : "From the new_addresses.csv file do a parameterized test and fill the page up with at least 3 pieces of data.",
+  "descriptionHtml" : "<p>From the new_addresses.csv file do a parameterized test and fill the page up with at least 3 pieces of data.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data handling"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "AddressesPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AddressesPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "repetitiveDataEntry"
+  }, {
+    "name" : "suite",
+    "value" : "Data handling tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d80834ebd52237de.json",
+  "parameterValues" : [ ]
+}

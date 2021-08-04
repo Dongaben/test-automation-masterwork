@@ -1,0 +1,61 @@
+{
+  "uid" : "c338bb05ce534c52",
+  "name" : "Input of new data test (New_01)",
+  "fullName" : "HomePageTest.inputOfNewData",
+  "historyId" : "2761bf31442a9f120273bfd9ddd1f813",
+  "time" : {
+    "start" : 1628091787629,
+    "stop" : 1628091795770,
+    "duration" : 8141
+  },
+  "description" : "Enter the word \"mug\" in the search box and check the conformity of the listed products.",
+  "descriptionHtml" : "<p>Enter the word &quot;mug&quot; in the search box and check the conformity of the listed products.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Products searching"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "inputOfNewData"
+  }, {
+    "name" : "suite",
+    "value" : "Products searching tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c338bb05ce534c52.json",
+  "parameterValues" : [ ]
+}

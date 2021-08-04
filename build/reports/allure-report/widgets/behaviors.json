@@ -1,30 +1,19 @@
 {
-  "total" : 5,
+  "total" : 6,
   "items" : [ {
-    "uid" : "18600d685aa526bfedcb0e108c7017b1",
-    "name" : "Data handling Feature",
+    "uid" : "9ec8e848a00447663626aa7fcd5cd7f7",
+    "name" : "Data handling",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     }
   }, {
-    "uid" : "c65591d23823647e1379612054ef2d4b",
-    "name" : "Register Feature",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "6cc8469c305b36ccc59f94b0f9572460",
-    "name" : "Login and logout Feature",
+    "uid" : "c0effe69527f658c5af968b745a6e0ad",
+    "name" : "Registration",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +23,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "ffcf53786b22197d4781116e6c1098c1",
-    "name" : "Products searching Feature",
+    "uid" : "9703b2b4ba5cb721385ac4587d6bbc01",
+    "name" : "Products searching",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,8 +34,30 @@
       "total" : 2
     }
   }, {
-    "uid" : "ce4dc6b43c192a7a78e2f2b730e96254",
-    "name" : "Listing Feature",
+    "uid" : "14102d61eef2af473312d4f91dec531b",
+    "name" : "Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4d120ae6f6e6eee457e8490c817ff33f",
+    "name" : "Data listing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "dcbebd01cb6a8eb469ec948c2c2fe8e9",
+    "name" : "Logout",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

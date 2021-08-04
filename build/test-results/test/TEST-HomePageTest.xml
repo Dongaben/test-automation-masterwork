@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Products searching tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-31T16:45:22" hostname="DESKTOP-MOBDSIT" time="14.158">
+<testsuite name="Products searching tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-04T15:43:07" hostname="DESKTOP-MOBDSIT" time="16.172">
   <properties/>
-  <testcase name="Input of new data test (New_01)" classname="HomePageTest" time="6.911"/>
-  <testcase name="Pagination test (Pag_01)" classname="HomePageTest" time="7.242"/>
+  <testcase name="Input of new data test (New_01)" classname="HomePageTest" time="8.156"/>
+  <testcase name="Pagination test (Pag_01)" classname="HomePageTest" time="8.007"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31829
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 25518
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:45:25 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:43:10 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7321
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 18513
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-júl. 31, 2021 6:45:32 DU org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 04, 2021 5:43:18 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

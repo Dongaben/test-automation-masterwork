@@ -10,13 +10,13 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.support.PageFactory;
 
-@Feature("Register Feature")
 @DisplayName("Registration, Using Privacy Statement and Data saving tests")
 public class RegisterPageTest extends BaseTest{
 
-  @ParameterizedTest
-  @DisplayName("Unsuccessed registration test (Reg_01)")
-  @Description("Unsuccessed registration without accepting access terms and conditions " +
+  @ParameterizedTest(name = "Unsuccessful registration test (Reg_01)")
+  @DisplayName("Unsuccessful registration test (Reg_01)")
+  @Feature("Registration")
+  @Description("Unsuccessful registration without accepting access terms and conditions " +
       "and the privacy policy.")
   @CsvFileSource(resources = "registration_data.csv", numLinesToSkip = 1, encoding = "utf-8")
   public void unSuccessRegister(String socialTitle, String firstName, String lastName,
@@ -28,8 +28,9 @@ public class RegisterPageTest extends BaseTest{
     Assertions.assertThat(register.isLoaded()).isTrue();
   }
 
-  @ParameterizedTest
-  @DisplayName("Successfully registration test (Reg_02)")
+  @ParameterizedTest(name = "Successful registration test (Reg_02)")
+  @DisplayName("Successful registration test (Reg_02)")
+  @Feature("Registration")
   @Description("In the test, the email address is generated randomly.")
   @CsvFileSource(resources = "registration_data.csv", numLinesToSkip = 1, encoding = "utf-8")
   public void successRegister(String socialTitle, String firstName, String lastName,
@@ -47,6 +48,7 @@ public class RegisterPageTest extends BaseTest{
 
   @Test
   @DisplayName("Using Privacy Statement test (UPS_01)")
+  @Feature("Registration")
   @Description("Open Privacy Statement and check the box.")
   public void usingPrivacyStatement() {
     RegisterPage register = PageFactory.initElements(driver, RegisterPage.class);
@@ -60,6 +62,7 @@ public class RegisterPageTest extends BaseTest{
 
   @Test
   @DisplayName("Saving data from the web application test (Sav_01)")
+  @Feature("Data handling")
   @Description("Save a list of data form the page into the \"Terms_and_conditions_of_use.txt\" file.")
   public void savingDataFromTheWebApplication() throws InterruptedException {
     RegisterPage register = PageFactory.initElements(driver, RegisterPage.class);

@@ -1,150 +1,150 @@
 [ {
-  "uid" : "7f121654762aebb1",
-  "name" : "[1] Mr., Elek, Mekk, mekkelek13@gmail.com, 123321, 11/11/1990",
+  "uid" : "c87098c4dea3ad4c",
+  "name" : "Unsuccessful registration test (Reg_01)",
   "time" : {
-    "start" : 1627749995265,
-    "stop" : 1627750004644,
-    "duration" : 9379
+    "start" : 1628091865526,
+    "stop" : 1628091875837,
+    "duration" : 10311
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "291e22c8fa47785b",
-  "name" : "Logout test (Out_01)",
-  "time" : {
-    "start" : 1627749936730,
-    "stop" : 1627749945654,
-    "duration" : 8924
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c1a7ece95cc2a4f",
-  "name" : "[1] Telephely1, Hold u. 5., Szeged, California, 55555, United States",
-  "time" : {
-    "start" : 1627749889891,
-    "stop" : 1627749900677,
-    "duration" : 10786
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59b5ccee40e6db37",
-  "name" : "Existing data modification test (Mod_01)",
-  "time" : {
-    "start" : 1627749876889,
-    "stop" : 1627749889673,
-    "duration" : 12784
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e57d71db1641688c",
+  "uid" : "c338bb05ce534c52",
   "name" : "Input of new data test (New_01)",
   "time" : {
-    "start" : 1627749922560,
-    "stop" : 1627749929468,
-    "duration" : 6908
+    "start" : 1628091787629,
+    "stop" : 1628091795770,
+    "duration" : 8141
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "49dc9addcee90367",
-  "name" : "[1] Mr., Elek, Mekk, mekkelek13@gmail.com, 123321, 11/11/1990",
+  "uid" : "3e1e0bd19164bcd3",
+  "name" : "Logout test (Out_01)",
   "time" : {
-    "start" : 1627749976165,
-    "stop" : 1627749986778,
-    "duration" : 10613
+    "start" : 1628091803816,
+    "stop" : 1628091813192,
+    "duration" : 9376
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5de290bbb3826a1b",
-  "name" : "Deleting data test (Del_01)",
-  "time" : {
-    "start" : 1627749865090,
-    "stop" : 1627749876889,
-    "duration" : 11799
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab4e2a3e6264c830",
-  "name" : "Unsuccessfully login test (Log_01)",
-  "time" : {
-    "start" : 1627749953912,
-    "stop" : 1627749961588,
-    "duration" : 7676
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "292a5bb4a46f7243",
-  "name" : "Saving data from the web application test (Sav_01)",
-  "time" : {
-    "start" : 1627749961604,
-    "stop" : 1627749976149,
-    "duration" : 14545
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "49de20f50f9a6952",
-  "name" : "[3] Telephely3, Halom u. 33., Szolnok, Texas, 77777, United States",
-  "time" : {
-    "start" : 1627749911553,
-    "stop" : 1627749922544,
-    "duration" : 10991
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6c2b69d8420fd9e",
-  "name" : "Using Privacy Statement test (UPS_01)",
-  "time" : {
-    "start" : 1627749986793,
-    "stop" : 1627749995249,
-    "duration" : 8456
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d14225993b5e5caf",
-  "name" : "[2] Telephely2, Mester u. 24., Hatvan, Arizona, 66666, United States",
-  "time" : {
-    "start" : 1627749900708,
-    "stop" : 1627749911521,
-    "duration" : 10813
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8cf9fead4fe2f32",
-  "name" : "Pagination test (Pag_01)",
-  "time" : {
-    "start" : 1627749929468,
-    "stop" : 1627749936715,
-    "duration" : 7247
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e7afe64974a120d9",
+  "uid" : "84989c2f6fa49e2",
   "name" : "Execute a data listing from any data available on the page (List_01)",
   "time" : {
-    "start" : 1627749847995,
-    "stop" : 1627749864481,
-    "duration" : 16486
+    "start" : 1628091716185,
+    "stop" : 1628091728929,
+    "duration" : 12744
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c465278859e889a0",
-  "name" : "Successfully login test (Log_02)",
+  "uid" : "11f31b9bfed37d3",
+  "name" : "Successful login test (Log_02)",
   "time" : {
-    "start" : 1627749945670,
-    "stop" : 1627749953897,
-    "duration" : 8227
+    "start" : 1628091813201,
+    "stop" : 1628091821872,
+    "duration" : 8671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7efeaa034b924ac",
+  "name" : "Repetitive data entry test (Create new address) - Alias = Telephely2",
+  "time" : {
+    "start" : 1628091764927,
+    "stop" : 1628091776068,
+    "duration" : 11141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "829ab567a4770074",
+  "name" : "Repetitive data entry test (Create new address) - Alias = Telephely1",
+  "time" : {
+    "start" : 1628091752406,
+    "stop" : 1628091764897,
+    "duration" : 12491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d80834ebd52237de",
+  "name" : "Repetitive data entry test (Create new address) - Alias = Telephely3",
+  "time" : {
+    "start" : 1628091776098,
+    "stop" : 1628091787609,
+    "duration" : 11511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8a28d8fb2e93bb6",
+  "name" : "Deleting data test (Del_01)",
+  "time" : {
+    "start" : 1628091729233,
+    "stop" : 1628091741975,
+    "duration" : 12742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3f57f01a29416a",
+  "name" : "Existing data modification test (Mod_01)",
+  "time" : {
+    "start" : 1628091742000,
+    "stop" : 1628091752156,
+    "duration" : 10156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2dd90d67a4c04e3",
+  "name" : "Pagination test (Pag_01)",
+  "time" : {
+    "start" : 1628091795790,
+    "stop" : 1628091803791,
+    "duration" : 8001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed581ba5d4efe716",
+  "name" : "Using Privacy Statement test (UPS_01)",
+  "time" : {
+    "start" : 1628091856276,
+    "stop" : 1628091865514,
+    "duration" : 9238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcb3029cadbe0464",
+  "name" : "Unsuccessful login test (Log_01)",
+  "time" : {
+    "start" : 1628091821872,
+    "stop" : 1628091830303,
+    "duration" : 8431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7d738634dc2dc",
+  "name" : "Saving data from the web application test (Sav_01)",
+  "time" : {
+    "start" : 1628091830343,
+    "stop" : 1628091844659,
+    "duration" : 14316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11d1a61cbbdfb0b4",
+  "name" : "Successful registration test (Reg_02)",
+  "time" : {
+    "start" : 1628091844674,
+    "stop" : 1628091856256,
+    "duration" : 11582
   },
   "status" : "passed",
   "severity" : "normal"

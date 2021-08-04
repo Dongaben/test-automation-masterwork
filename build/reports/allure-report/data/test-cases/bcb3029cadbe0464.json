@@ -1,0 +1,61 @@
+{
+  "uid" : "bcb3029cadbe0464",
+  "name" : "Unsuccessful login test (Log_01)",
+  "fullName" : "LoginPageTest.unSuccessLoginWithInvalidData",
+  "historyId" : "62e411f6e6621eacc0f38d08ff0c82d1",
+  "time" : {
+    "start" : 1628091821872,
+    "stop" : 1628091830303,
+    "duration" : 8431
+  },
+  "description" : "Unsuccessful login with non registrated data.",
+  "descriptionHtml" : "<p>Unsuccessful login with non registrated data.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MOBDSIT"
+  }, {
+    "name" : "thread",
+    "value" : "1980@DESKTOP-MOBDSIT.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unSuccessLoginWithInvalidData"
+  }, {
+    "name" : "suite",
+    "value" : "Login and logout tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcb3029cadbe0464.json",
+  "parameterValues" : [ ]
+}
